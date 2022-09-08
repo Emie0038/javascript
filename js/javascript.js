@@ -27,7 +27,7 @@ out(bdy);
 
 function changeBodyColor() {
   let col = inpColor.value;
-  out(col)
+  out(col);
   bdy.style.backgroundColor = col
 }
 
