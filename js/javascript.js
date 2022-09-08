@@ -16,10 +16,14 @@ let selectedColor = null;
 
 console.log(name1,age,isApproved,firstName,selectedColor)
 
+
+
 //Dynamic Typed
+function out(any) {console.log(any)}
 
 const inpColor = document.querySelector(".getColor");
 const pbSetColor = document.querySelector(".pbSetColor");
+
 
 out(inpColor);
 const bdy = document.querySelector("body");
