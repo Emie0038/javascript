@@ -18,4 +18,17 @@ console.log(name1,age,isApproved,firstName,selectedColor)
 
 //Dynamic Typed
 
+const inpColor = document.querySelector(".getColor");
+const pbSetColor = document.querySelector(".pbSetColor");
 
+
+const bdy = document.querySelector("body");
+out(bdy);
+
+function changeBodyColor() {
+  let col = inpColor.value;
+  out(col);
+  bdy.style.backgroundColor = col
+}
+
+pbSetColor.addEventListener('click', changeBodyColor);
