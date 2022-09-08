@@ -21,7 +21,7 @@ console.log(name1,age,isApproved,firstName,selectedColor)
 const inpColor = document.querySelector(".getColor");
 const pbSetColor = document.querySelector(".pbSetColor");
 
-
+out(inpColor);
 const bdy = document.querySelector("body");
 out(bdy);
 
